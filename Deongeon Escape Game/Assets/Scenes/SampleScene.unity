@@ -2999,7 +2999,7 @@ GameObject:
   - component: {fileID: 903101619}
   - component: {fileID: 903101618}
   m_Layer: 0
-  m_Name: Foreground_Tilemap
+  m_Name: Farground_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3729,7 +3729,7 @@ GameObject:
   - component: {fileID: 1060381700}
   - component: {fileID: 1060381699}
   m_Layer: 0
-  m_Name: Vegetation_Tilemap
+  m_Name: Foreground_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3905,7 +3905,7 @@ Tilemap:
   - first: {x: 1, y: -1, z: 0}
     second:
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -3913,8 +3913,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: 2, y: -1, z: 0}
     second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -3922,8 +3922,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: 3, y: -1, z: 0}
     second:
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -4003,15 +4003,19 @@ Tilemap:
       m_ColliderType: 1
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 21
+  - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: ea4b34c4d2f3bb946ac95b62c31e93ea, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 57a63562c302b4d44872e669db62747b, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4993a1846a54caf40b4db5b2b447e23b, type: 2}
+    m_Data: {fileID: 11400000, guid: 6ecf427f868027c419a7dead182e34f0, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 21
+  - m_RefCount: 19
     m_Data: {fileID: 21300004, guid: aa799cea6ac955749bb0902b76321781, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300016, guid: aa799cea6ac955749bb0902b76321781, type: 3}
+    m_Data: {fileID: 21300020, guid: aa799cea6ac955749bb0902b76321781, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 21300012, guid: a428de0ec49bbc64cbeec16ca98e4574, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 22
     m_Data:
